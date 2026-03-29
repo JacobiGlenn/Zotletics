@@ -21,3 +21,25 @@ export default function Home() {
     </div>
   );
 }
+
+function Welcome() {
+    return (
+        <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-zinc-950">
+            <h1 className="text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+                Welcome to Zotletics
+            </h1>
+        </div>
+    )
+}
+
+function ComingSoon() {
+    return (
+        <div className="flex min-h-screen flex-col items-center justify-center bg-zinc-50 font-sans dark:bg-zinc-950">
+            <h1 className="text-5xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+                Coming Soon
+            </h1>
+        </div>
+    )
+}
+
+
